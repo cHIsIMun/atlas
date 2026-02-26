@@ -93,6 +93,22 @@ export const courses = [
           },
         ],
       },
+      {
+        id: 3,
+        slug: "componentes-do-computador",
+        title: "Componentes do Computador",
+        description:
+          "Conceituação e funcionamento dos componentes básicos — CPU, memória, armazenamento, dispositivos de E/S e barramentos.",
+        duration: "1 aula",
+        status: "available",
+        submodules: [
+          {
+            id: 1,
+            slug: "componentes-do-computador/introducao",
+            title: "O Computador por Dentro",
+          },
+        ],
+      },
     ],
   },
   {
