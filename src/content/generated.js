@@ -1,5 +1,5 @@
 // Gerado automaticamente - npm run content:generate
-// 2026-02-26T20:53:41.201Z
+// 2026-02-26T20:56:07.571Z
 
 export const generatedContent = {
   "arquitetura-organizacao": {
