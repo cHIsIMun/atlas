@@ -91,7 +91,7 @@ Vamos fazer um exercício prático. Se você está usando um computador agora:
 
 ---
 
-## O que vem下一
+## O que vem depois
 
 Agora que temos uma visão geral, vamos mergulhar em cada componente. O próximo passo é entender o **processador (CPU)** — o cérebro do computador.
 
