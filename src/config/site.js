@@ -15,8 +15,8 @@ export const siteConfig = {
   semester: "2026.1",
 
   social: {
-    github: "https://github.com/lucascardoso",
-    linkedin: "https://linkedin.com/in/lucascardoso",
+    github: "https://github.com/chisimun",
+    linkedin: "https://www.linkedin.com/in/lucas-vinicius-py/",
   },
 
   features: [
