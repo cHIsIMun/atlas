@@ -1,16 +1,42 @@
-# React + Vite
+# atlas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🇧🇷 Português | 🇺🇸 [English](README.en.md)
 
-Currently, two official plugins are available:
+> Plataforma educacional interativa para arquitetura de computadores, circuitos digitais e engenharia de dados — conteúdo em Markdown com diagramas, LaTeX e animações.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Visão geral
 
-## React Compiler
+**atlas** é uma plataforma web de ensino que organiza cursos técnicos em conteúdo navegável gerado a partir de **Markdown**, com renderização de diagramas, fórmulas matemáticas (KaTeX) e *syntax highlight* de código. Inclui um motor de animações próprio para ilustrar conceitos.
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+## Cursos
 
-## Expanding the ESLint configuration
+- Arquitetura e Organização de Computadores
+- Circuitos Digitais
+- Engenharia de Dados
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Funcionalidades
+
+- Geração de conteúdo a partir de Markdown (`npm run content:generate`).
+- Roteamento por disciplina → módulo → submódulo, com sidebar e *table of contents* dinâmico.
+- Suporte a LaTeX (KaTeX) e realce de código (Highlight.js) via rehype/remark.
+- **Motor de animações** (`anim-engine`) extensível por pacotes.
+
+## Stack
+
+React 19 · Vite · TypeScript · Tailwind CSS · React Router · react-markdown (rehype-highlight, rehype-katex, remark-math, remark-gfm).
+
+## Como executar
+
+```bash
+npm install
+npm run content:generate   # gera o índice de conteúdo
+npm run dev
+```
+
+## Estado do projeto
+
+Ativo e bem estruturado, pronto para expansão modular de conteúdo.
+
+## Licença
+
+Este projeto ainda não declara uma licença; até que uma seja adicionada, todos os direitos são reservados ao autor.
